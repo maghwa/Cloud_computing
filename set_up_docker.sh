@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+sudo dpkg --configure -a
 # Vérifier si Docker est installé
 if ! command -v docker &> /dev/null; then
     echo "Docker non trouvé. Installation de Docker..."
