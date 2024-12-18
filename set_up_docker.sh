@@ -6,6 +6,7 @@ if ! command -v docker &> /dev/null; then
     
     # Mise à jour des paquets
     sudo apt-get update -y
+    sudo dpkg --configure -a
 
     # Installer les dépendances pour Docker
     sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
