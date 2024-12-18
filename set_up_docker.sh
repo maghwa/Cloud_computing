@@ -38,7 +38,7 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-DOCKER_IMAGE="$1"
+DOCKER_IMAGE="golucky5/pacman"
 
 # Télécharger et exécuter l'application Docker
 echo "Téléchargement et exécution de l'image Docker : $DOCKER_IMAGE"
